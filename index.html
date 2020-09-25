@@ -27,13 +27,12 @@
                                 Age: <br><input type="text" required name="persInfo"
                                     placeholder="Enter your age here." /> <br>
 
-                                Which option best describes your current role?: <select id="cars" name="persInfo">
+                                Which option best describes your current role?: <select class="opt1" name="persInfo">
                                     <option value="Tech">Tech</option>
                                     <option value="Art">Art</option>
                                     <option value="Hobbyist">Hobbyist</option>
                                     <option value="Enthusiast">Enthusiast</option>
                                 </select>
-                                <input type="submit" name="perInfo"> </p>
                         </legend>
 
                         <legend name="relInfo">
@@ -43,7 +42,7 @@
                                 <input type="radio" name="relInfo" /> Maybe <br>
                             </p>
 
-                            <p>What is your favorite feature of freeCodeCamp? <select name="relInfo">
+                            <p>What is your favorite feature of freeCodeCamp? <select class="opt1" name="relInfo">
                                     <option value="Challenges">Challenges</option>
                                     <option value="Projects">Project</option>
                                     <option value="OpenSource">Open Source</option>
@@ -65,6 +64,12 @@
                                 <input type="radio" value="Forum"> Forum <br>
                                 <input type="radio" value="Additional Courses"> Additional Courses <br>
                             </p>
+
+                            <p>Any comments or suggestions?<br>
+                                <textarea id="comments" name="relInfo" >
+                                    
+                                    
+                                </textarea></p>
                         </legend>
 
                         <input type="submit" name="Info">
