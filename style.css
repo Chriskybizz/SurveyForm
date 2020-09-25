@@ -24,6 +24,10 @@
     border-radius: 5px;
 }
 
+#form{
+    display: grid;
+}
+
 input[type='text'] {
     width: 98%;
     height: 30px;
@@ -71,3 +75,25 @@ input[type='text'] {
 ::-webkit-scrollbar:hover {
     background-color: lightblue;
 }
+
+#wrap {
+    justify-self: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Courier Prime', monospace;
+    width: 535px;
+    height: 70px;
+
+
+    
+  }
