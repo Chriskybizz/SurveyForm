@@ -1,0 +1,48 @@
+#body{
+    background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2020/online.jpg);
+    width: 100%;
+    height: 100%;
+   
+}
+
+#scroll {
+    
+    display: grid;
+    font-size: 25px; 
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    overflow: scroll;
+    gap: 30px;
+    font-family: 'Courier Prime', monospace;
+    
+
+
+}
+
+#mainPanel{
+    justify-self: center;
+    width: 40%;
+    background-color: hsla(252, 100%, 50%, 0.27);
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+
+
+
+}
+
+#title{
+    justify-self: center;
+    line-height: 50px;
+    height: 20%;
+    width: 40%;
+    padding-top: 100px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    
+
+
+}
+
